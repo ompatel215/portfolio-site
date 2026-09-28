@@ -11,8 +11,8 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 export const DATA = {
   name: "Om Patel",
   initials: "OP",
-  // TODO: update once the site is deployed / a custom domain is attached
-  url: "https://om-patel-portfolio.vercel.app",
+  // Update if a custom domain is attached later
+  url: "https://portfolio-site-seven-plum-32.vercel.app",
   location: "College Park, MD",
   locationLink: "https://www.google.com/maps/place/college+park+md",
   description:
