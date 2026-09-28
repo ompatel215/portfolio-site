@@ -11,15 +11,14 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 export const DATA = {
   name: "Om Patel",
   initials: "OP",
-  // Update if a custom domain is attached later
-  url: "https://portfolio-site-seven-plum-32.vercel.app",
+  url: "https://ompatelcodes.com",
   location: "College Park, MD",
   locationLink: "https://www.google.com/maps/place/college+park+md",
   description:
     "Data Science Grad Student @ UMD | Penn State CS Alum | SWE, ML & Data Engineering",
   summary:
     "I'm a Data Science graduate student at the [University of Maryland, College Park](/#education), following a Computer Science degree from [Penn State Abington](/#education). My work spans software engineering, machine learning, and data engineering, with a recurring focus on healthcare and real-world operational data — from legal document analysis to hospital readmission prediction to market sentiment modeling. I like building end-to-end: pipelines, models, and the interfaces that make them usable.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     { name: "Python", icon: Python },
     { name: "TypeScript", icon: Typescript },
@@ -74,7 +73,6 @@ export const DATA = {
     {
       school: "Pennsylvania State University, Abington",
       href: "https://abington.psu.edu",
-      // TODO: confirm actual start year
       degree: "B.S. in Computer Science",
       logoUrl: "",
       start: "2022",
